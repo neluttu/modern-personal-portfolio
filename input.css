@@ -91,4 +91,10 @@
           -ms-overflow-style: none;  /* IE and Edge */
           scrollbar-width: none;  /* Firefox */
       }
+
+      .mobileMenu.open {
+        max-height: 500px; /* Adjust the height as needed */
+        transition: max-height 1s ease-in;
+    }
+
   }
